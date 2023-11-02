@@ -4,3 +4,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* generali */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+    
+
+
+/* header */
+
+.header-container{
+    width: 100%;
+    background-color: #FF6900;
+    
+    
+}
+
+.nav-bar{
+    width: 70%;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 0px;
+    
+}
+
+.logo-box{
+    width: 100px;
+}
+   
+.logo-box img{
+    width: 100%;
+}
+    
+a{
+    text-decoration: none;
+    
+}
+
+.nav-bar > ul li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+i{
+    padding-right: 5px;
+}
+
+  
+
+
