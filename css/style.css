@@ -23,7 +23,6 @@ a{
     
     
 }
-
 .nav-bar{
     width: 60%;
     margin: auto;
@@ -33,20 +32,15 @@ a{
     padding: 10px 0px;
     
 }
-
 .logo-box{
     width: 100px;
 }
-   
 .logo-box img{
     width: 100%;
 }
-    
 a{
     text-decoration: none;
-    
 }
-
 .nav-bar > ul li {
     display: inline-block;
     padding-right: 5px;
@@ -55,10 +49,12 @@ a{
 i{
     padding-left: 5px;
 }
-
+   
+    
 /* fine header */
 
 /* inizio main */
+
 .bar-container{
     position: absolute;
     bottom: 10%;
@@ -72,6 +68,7 @@ i{
     text-decoration: line-through;
     padding-left: 5px;
 }
+
 
 
 
@@ -102,20 +99,18 @@ i{
 .image-box{
     position: relative;
 }
-
 img:hover ~ .hidden-image{
     display: block;
 }
-
 img:hover{
     display: none;
 }
-
 .hidden-image{
     display: none;
     width: 100%;
     min-height: 362px;
 }
+
 
 
 .main-container{
@@ -139,7 +134,27 @@ img:hover{
     width: 100%;
 }
    
+    
 
 
 
-   
+/* footer */
+
+footer{
+    background-color: #1A1A1A;
+}
+
+.main-footer{
+    color: white;
+    width: 60%;
+    margin: auto;
+}
+
+.main-footer > div > h4{
+    padding: 10px 0px;
+}
+          
+.main-footer > div span{
+    padding: 10px 10px 10px 0px;
+}
+    
