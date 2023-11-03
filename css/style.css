@@ -99,16 +99,15 @@ i{
 .image-box{
     position: relative;
 }
-img:hover ~ .hidden-image{
+.image-box:hover .hidden-img{
     display: block;
 }
-img:hover{
+.image-box:hover .shown-img{
     display: none;
 }
-.hidden-image{
+.hidden-img{
     display: none;
     width: 100%;
-    min-height: 362px;
 }
 
 
