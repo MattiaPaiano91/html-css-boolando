@@ -67,6 +67,25 @@ i{
     padding-left: 5px;
 }
 
+
+.bar-container{
+    position: absolute;
+    bottom: 10%;
+}
+
+.red-bar{
+    color: white;
+    background-color: red;
+    padding: 5px 5px;
+}
+    
+
+.green-bar{
+    color: white;
+    background-color: green;
+    padding: 5px 5px;
+}
+
 .heart-box{
     width: 30px;
     height: 50px;
@@ -85,8 +104,8 @@ i{
 
 .card:hover .heart-box{
     display: block;
-    
 }
+    
 
 /* debug */
 
